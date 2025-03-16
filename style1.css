@@ -1,0 +1,29 @@
+/* div{
+    background-color: blue;
+} */
+/* 1st way */
+/* .heading
+{
+    color : red;
+} */
+/* 2nd way */
+h1, h2, h3{
+    color: red;
+}
+/* button{
+    background-color: green;
+} */
+p{
+    text-align: center;
+    text-transform: uppercase;
+}
+*{
+    font-family: "Times New Roman";
+}
+#inner{
+    font-size: 10px;
+}
+#outer
+{
+    font-size: 25px;
+}

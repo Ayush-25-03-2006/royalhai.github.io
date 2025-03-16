@@ -1,0 +1,448 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#classic
+{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-left: 260px;
+    width: 400px;
+}
+#classicwritten
+{
+    text-align: justify;
+    width: 710px;
+    margin-left: 40px;
+    font-size: 22px;
+}
+#line
+{
+    width : 740px;
+    margin-left: 20px;
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+#classicmadras
+{
+    width:280px;
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    color:red;
+    height: 280px;
+    margin-left: 850px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+#classicjodhpur
+{
+    width:280px;
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    color:blue;
+    height: 280px;
+    margin-left: 1180px;
+    border: 3px solid blue;
+    border-radius: 20px;
+}
+#classicemerald
+{
+    width:280px;
+    margin-top: 560px;
+    position: absolute;
+    text-align: center;
+    color:rgb(3, 75, 3);
+    height: 280px;
+    margin-left: 850px;
+    border: 3px solid rgb(3, 75, 3);
+    border-radius: 20px;
+}
+#classichalycon
+{
+    width:280px;
+    margin-top: 560px;
+    position: absolute;
+    text-align: center;
+    color:rgb(31, 133, 31);
+    height: 280px;
+    margin-left: 1180px;
+    border: 3px solid rgb(31, 133, 31);
+    border-radius: 20px;
+}
+#colour
+{
+    margin-left: 1070px;
+    position: absolute;
+    width: 260px;
+    margin-top: 60px;
+}
+#classiccommando
+{
+    width:280px;
+    margin-top: 910px;
+    position: absolute;
+    text-align: center;
+    color:yellowgreen;
+    height: 280px;
+    margin-left: 850px;
+    border: 3px solid yellowgreen;
+    border-radius: 20px;
+}
+#classichalyconblack
+{
+    width:280px;
+    margin-top: 910px;
+    position: absolute;
+    text-align: center;
+    color:rgb(70, 11, 25);
+    height: 280px;
+    margin-left: 1180px;
+    border: 3px solid rgb(70, 11, 25);
+    border-radius: 20px;
+}
+#classicstealth
+{
+    width:280px;
+    margin-top: 1260px;
+    position: absolute;
+    text-align: center;
+    color:black;
+    height: 280px;
+    margin-left: 850px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+#classicgrey
+{
+    width:280px;
+    margin-top: 1260px;
+    position: absolute;
+    text-align: center;
+    color:grey;
+    height: 280px;
+    margin-left: 1180px;
+    border: 3px solid grey;
+    border-radius: 20px;
+}
+#classicgray
+{
+    width:280px;
+    margin-top: 1610px;
+    position: absolute;
+    text-align: center;
+    color:gray;
+    height: 280px;
+    margin-left: 850px;
+    border: 3px solid gray;
+    border-radius: 20px;
+}
+#classicred
+{
+    width:280px;
+    margin-top: 1610px;
+    position: absolute;
+    text-align: center;
+    color:red;
+    height: 280px;
+    margin-left: 1180px;
+    border: 3px solid rgb(199, 57, 57);
+    border-radius: 20px;
+}
+#classicpremium
+{
+    width:280px;
+    margin-top: 1950px;
+    position: absolute;
+    text-align: center;
+    color:brown;
+    height: 280px;
+    margin-left: 850px;
+    border: 3px solid brown;
+    border-radius: 20px;
+}
+#price
+{
+    margin-left: 535px;
+    position: absolute;
+    width: 250px;
+    margin-top: 45px;
+    height: 25px;
+}
+@media screen and (min-width: 250px) and (max-width: 350px) {
+    #classic{
+        display: grid;
+        flex-direction: column;
+        width: 240px;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    #classicwritten{
+        display: grid;
+        flex-direction: column;
+        width: 200px;
+        margin-left: 25px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #line{
+        display: grid;
+        flex-direction: column;
+        width: 220px;
+    }
+    #colour{
+        display: grid;
+        flex-direction: column;
+        margin-top: 2400px;
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    #classicmadras{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:2470px;
+    }
+    #classicjodhpur{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:2610px;
+    }
+    #classicemerald{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:2750px;
+    }
+    #classichalycon{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:2890px;
+    }
+    #classiccommando{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:3030px;
+    }
+    #classichalyconblack{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:3170px;
+    }
+    #classicstealth{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:3310px;
+    }
+    #classicgrey{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:3450px;
+    }
+    #classicgray{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:3590px;
+    }
+    #classicred{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:3730px;
+    }
+    #classicpremium{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+        margin-left: 15px;
+        margin-top:3870px;
+    }
+    #price{
+        display: grid;
+        flex-direction: column;
+        width: 230px;
+        margin-top: 1990px;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 450px) 
+{
+    #classic{
+        display: grid;
+        flex-direction: column;
+        width: 300px;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    #classicwritten{
+        display: grid;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 25px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    #line{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+    }
+    #colour{
+        display: grid;
+        flex-direction: column;
+        margin-top: 2400px;
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    #classicmadras{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:2470px;
+    }
+    #classicjodhpur{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:2670px;
+    }
+    #classicemerald{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:2870px;
+    }
+    #classichalycon{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:3070px;
+    }
+    #classiccommando{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:3270px;
+    }
+    #classichalyconblack{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:3470px;
+    }
+    #classicstealth{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:3670px;
+    }
+    #classicgrey{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:3870px;
+    }
+    #classicgray{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:4070px;
+    }
+    #classicred{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:4270px;
+    }
+    #classicpremium{
+        display: grid;
+        flex-direction: column;
+        width: 330px;
+        position: absolute;
+        height: 160px;
+        margin-left: 15px;
+        margin-top:4470px;
+    }
+    #price{
+        display: grid;
+        flex-direction: column;
+        width: 320px;
+        border-radius: 10px;
+        margin-top: 2310px;
+        margin-left: 10px;
+    }
+}

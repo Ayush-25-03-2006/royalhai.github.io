@@ -1,0 +1,9 @@
+div{
+    position: fixed;
+    border: 2px solid black;   
+    height: 100px;
+    width: 100px;
+    left: 1420px;
+    background-image : url("Dog_Image.jpg");
+    background-size: cover;
+}
